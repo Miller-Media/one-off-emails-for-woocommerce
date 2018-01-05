@@ -1,2 +1,2 @@
 # woocommerce-one-off-emails
-Send an email with custom content using the WooCommerce email template.
+Send an email with custom content to anyone using the WooCommerce email template.
