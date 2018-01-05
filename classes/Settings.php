@@ -42,7 +42,7 @@ class WooOneOffEmailsSettings
 	}
 
 	/**
-	 * Callback for add_menu_page to display the
+	 * Callback for add_submenu_page to display the
 	 * settings page.
 	 *
 	 */

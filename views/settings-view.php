@@ -1,9 +1,6 @@
 <?php
 
-// Get the existing settings.
-$wooe_settings = get_option('wooe_settings') ?: array ();
-
-// The plugin settings. Add new sections/fields accordingly.
+// The email fields.
 $settings = array (
 	'WooCommerce One-Off Emails' => array (
 		'fields' => array (

@@ -83,7 +83,6 @@ jQuery(document).ready(function(){
             data: data,
             success: function( data ){
                 data = JSON.parse(data);
-                console.log(data);
 
                 // If the response contains an error.
                 if( data.error && data.error.length > 0 ) {
