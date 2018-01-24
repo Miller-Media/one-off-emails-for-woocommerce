@@ -6,6 +6,8 @@ jQuery(document).ready(function(){
         e.preventDefault();
 
         var to = jQuery('#wooe_to').val();
+        var reply_to_name = jQuery('#wooe_reply_to_name').val();
+        var reply_to_email = jQuery('#wooe_reply_to_email').val();
         var subject = jQuery('#wooe_subject').val();
         var heading = jQuery('#wooe_heading').val();
         var iFrameDOM = jQuery('iframe#wooe_message_ifr').contents();
@@ -18,6 +20,8 @@ jQuery(document).ready(function(){
         var data = {
             action: 'wooe_sendemail',
             to: to,
+            reply_to_name: reply_to_name,
+            reply_to_email: reply_to_email,
             subject: subject,
             heading: heading,
             message: message
@@ -37,6 +41,8 @@ jQuery(document).ready(function(){
 
                 // Clear fields on front end.
                 jQuery('#wooe_to').val('');
+                jQuery('#wooe_reply_to_name').val('');
+                jQuery('#wooe_reply_to_email').val('');
                 jQuery('#wooe_subject').val('');
                 jQuery('#wooe_heading').val('');
                 iFrameDOM.find('#tinymce.wooe_message').html('');

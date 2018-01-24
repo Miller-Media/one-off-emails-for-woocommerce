@@ -83,6 +83,8 @@ class WooOneOffEmails
         }
 
         $to = sanitize_text_field($_POST['to']);
+        $reply_to_name = sanitize_text_field($_POST['reply_to_name']);
+        $reply_to_email = sanitize_text_field($_POST['reply_to_email']);
         $subject = sanitize_text_field($_POST['subject']);
         $message = html_entity_decode(stripslashes($_POST['message']));
         $heading = sanitize_text_field(stripslashes($_POST['heading']));
@@ -100,9 +102,11 @@ class WooOneOffEmails
 	    }
 	    $to = implode(',', $valid_addresses);
 
-        $result = $this->sendMail($to, $subject, $heading, $message);
+        $result = $this->sendMail($to, $reply_to_name, $reply_to_email, $subject, $heading, $message);
 
         $response['to'] = $to;
+	    $response['reply_to_name'] = $reply_to_name;
+	    $response['reply_to_email'] = $reply_to_email;
         $response['subject'] = $subject;
         $response['heading'] = $heading;
         $response['message'] = $message;
@@ -135,25 +139,50 @@ class WooOneOffEmails
 		wp_die(json_encode($response));
 	}
 
-    /**
-     * Send notification email using WC()->mailer.
-     *
-     * @param $to
-     * @param $subject
-     * @param $heading
-     * @param $message
-     * @return bool
-     */
-    public function sendMail( $to, $subject, $heading, $message )
+	/**
+	 * Send notification email using WC()->mailer.
+	 *
+	 * @param $to
+	 * @param $reply_to_name
+	 * @param $reply_to_email
+	 * @param $subject
+	 * @param $heading
+	 * @param $message
+	 * @return bool
+	 * @internal param $reply_to
+	 */
+    public function sendMail( $to, $reply_to_name, $reply_to_email, $subject, $heading, $message )
     {
         if (is_woocommerce_activated()) {
+
+        	// Filter "From Name"
+	        if( $reply_to_name ){
+		        add_filter( 'woocommerce_email_from_name', function($old_name) use ($reply_to_name){
+			        return $reply_to_name;
+		        } );
+	        }
+
+	        // Filter "From Email"
+	        if( $reply_to_email ){
+		        add_filter( 'woocommerce_email_from_address', function($from_address) use ($reply_to_email){
+			        return $reply_to_email;
+		        } );
+	        }
+
             $mailer = WC()->mailer();
             $message = $mailer->wrap_message(
                 $heading,
                 $message
             );
 
+            // Use $reply_to_email, if present.
+            if( $reply_to_email ){
+	            $headers = array( sprintf( 'Reply-To: %s', $reply_to_email ) );
+	            return $mailer->send($to, $subject, $message, $headers);
+            }
+
             return $mailer->send($to, $subject, $message);
+
         }
 
         return False;

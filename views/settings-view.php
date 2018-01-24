@@ -12,6 +12,20 @@ $settings = array (
 				'placeholder' => 'example001@email.com, example002@email.com'
 			),
 			array (
+				'name' => 'wooe_reply_to_name',
+				'type' => 'text',
+				'title' => 'Reply To Name: ',
+				'description' => '',
+				'placeholder' => get_option( 'woocommerce_email_from_name' )
+			),
+			array (
+				'name' => 'wooe_reply_to_email',
+				'type' => 'email',
+				'title' => 'Reply To Email: ',
+				'description' => '',
+				'placeholder' => get_option( 'woocommerce_email_from_address' )
+			),
+			array (
 				'name' => 'wooe_subject',
 				'type' => 'text',
 				'title' => 'Subject: ',
