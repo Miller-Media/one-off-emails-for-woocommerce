@@ -9,3 +9,6 @@ textarea {
 #wooe_ajax_res_send_email {
     margin-top: 20px;
 }
+.required {
+    color: red;
+}

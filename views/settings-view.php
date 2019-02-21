@@ -9,7 +9,8 @@ $settings = array (
 				'type' => 'text',
 				'title' => 'To: ',
 				'description' => '',
-				'placeholder' => 'example001@email.com, example002@email.com'
+				'placeholder' => 'example001@email.com, example002@email.com',
+                'required' => true
 			),
 			array (
 				'name' => 'wooe_reply_to_name',
@@ -30,21 +31,24 @@ $settings = array (
 				'type' => 'text',
 				'title' => 'Subject: ',
 				'description' => '',
-				'placeholder' => ''
+				'placeholder' => '',
+				'required' => true
 			),
 			array (
 				'name' => 'wooe_heading',
 				'type' => 'text',
 				'title' => 'Heading: ',
 				'description' => '',
-				'placeholder' => ''
+				'placeholder' => '',
+				'required' => true
 			),
 			array (
 				'name' => 'wooe_message',
 				'type' => 'textarea',
 				'title' => 'Message: ',
 				'description' => '',
-				'placeholder' => ''
+				'placeholder' => '',
+				'required' => true
 			)
 		)
 	),
@@ -64,7 +68,7 @@ $settings = array (
 					if ($data['type'] == 'textarea') {
 						?>
                         <tr>
-                            <td valign="top"><strong><label for="<?php echo $data['name']; ?>"><?php echo $data['title']; ?>
+                            <td valign="top"><strong><label for="<?php echo $data['name']; ?>"><?php echo $data['title']; ?><?php echo $data['required'] ? '<sup class="required">*</sup>' : ''; ?>
                                 </strong></label>
 								<?php
 								if (isset($data['description']) && $data['description']) {
@@ -86,7 +90,7 @@ $settings = array (
 						$placeholder = (isset($data['placeholder']) ? $data['placeholder'] : '');
 						?>
                         <tr>
-                            <td><strong><label for="<?php echo $data['name']; ?>"><?php echo $data['title']; ?>
+                            <td><strong><label for="<?php echo $data['name']; ?>"><?php echo $data['title']; ?><?php echo $data['required'] ? '<sup class="required">*</sup>' : ''; ?>
                                 </strong></label>
 								<?php
 								if (isset($data['description']) && $data['description']) {
