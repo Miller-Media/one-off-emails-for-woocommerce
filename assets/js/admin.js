@@ -18,45 +18,48 @@ jQuery(document).ready(function(){
         $response.text('Sending one-off email...');
 
         var data = {
-            action: 'wooe_sendemail',
-            to: to,
-            reply_to_name: reply_to_name,
-            reply_to_email: reply_to_email,
-            subject: subject,
-            heading: heading,
-            message: message
-        };
-        jQuery.ajax({
-            url: ajaxurl,
-            type: 'post',
-            data: data,
-            success: function( data ){
-                data = JSON.parse(data);
-
-                // If the response contains an error.
-                if( data.error && data.error.length > 0 ) {
-                    $response.text("There was an error: " + data.error);
-                    return;
-                }
-
-                // Clear fields on front end.
-                jQuery('#wooe_to').val('');
-                jQuery('#wooe_reply_to_name').val('');
-                jQuery('#wooe_reply_to_email').val('');
-                jQuery('#wooe_subject').val('');
-                jQuery('#wooe_heading').val('');
-                iFrameDOM.find('#tinymce.wooe_message').html('');
-                jQuery('#wooe_preview_window').html('');
-
-                $response.text("Email sent successfully!");
-                setTimeout(function(){
-                    $response.fadeOut();
-                }, 5000);
+            'data': {
+                'to': to,
+                'reply_to_name': reply_to_name,
+                'reply_to_email': reply_to_email,
+                'subject': subject,
+                'heading': heading,
+                'message': message
             },
-            error: function(errorThrown){
-                console.log('There was an error');
-                console.log(errorThrown);
+            'action': 'wooe_sendemail',
+            'nonce': wooe.nonce
+        };
+        jQuery.post(
+            wooe.ajaxurl,
+            data
+        )
+        .done(function( data ){
+            data = JSON.parse(data);
+
+            // If the response contains an error.
+            if( data.error && data.error.length > 0 ) {
+                $response.text("There was an error: " + data.error);
+                return;
             }
+
+            // Clear fields on front end.
+            jQuery('#wooe_to').val('');
+            jQuery('#wooe_reply_to_name').val('');
+            jQuery('#wooe_reply_to_email').val('');
+            jQuery('#wooe_subject').val('');
+            jQuery('#wooe_heading').val('');
+            iFrameDOM.find('#tinymce.wooe_message').html('');
+            jQuery('#wooe_preview_window').html('');
+
+            $response.text("Email sent successfully!");
+        })
+        .fail(function( data ){
+            $response.text('An unexpected error occurred. Please try again.');
+        })
+        .always(function( data ){
+            setTimeout(function(){
+                $response.fadeOut();
+            }, 5000);
         });
     });
 
@@ -79,29 +82,33 @@ jQuery(document).ready(function(){
         $response.text('Generating email preview...');
 
         var data = {
-            action: 'wooe_previewemail',
-            heading: heading,
-            message: message
+            'data': {
+                'heading': heading,
+                'message': message
+             },
+            'action': 'wooe_previewemail',
+            'nonce': wooe.nonce
         };
-        jQuery.ajax({
-            url: ajaxurl,
-            type: 'post',
-            data: data,
-            success: function( data ){
-                data = JSON.parse(data);
+        jQuery.post(
+            wooe.ajaxurl,
+            data
+        )
+        .done(function( data ){
+            data = JSON.parse(data);
 
-                // If the response contains an error.
-                if( data.error && data.error.length > 0 ) {
-                    $response.text("There was an error: " + data.error);
-                    return;
-                }
-
-                $response.html(data.result);
-            },
-            error: function(errorThrown){
-                console.log('There was an error');
-                console.log(errorThrown);
+            // If the response contains an error.
+            if( data.error && data.error.length > 0 ) {
+                $response.text("There was an error: " + data.error);
+                return;
             }
+
+            $response.html(data.result);
+        })
+        .fail(function( data ){
+            $response.text('An unexpected error occurred. Please try again.');
+            setTimeout(function(){
+                $response.fadeOut();
+            }, 5000);
         });
     });
 
