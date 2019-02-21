@@ -11,7 +11,12 @@ jQuery(document).ready(function(){
         var subject = jQuery('#wooe_subject').val();
         var heading = jQuery('#wooe_heading').val();
         var iFrameDOM = jQuery('iframe#wooe_message_ifr').contents();
-        var message = iFrameDOM.find('#tinymce.wooe_message').html();
+        var message;
+        if( jQuery('#wooe_message').is(':visible') ){
+            message = jQuery('#wooe_message').val();
+        } else {
+            message = iFrameDOM.find('#tinymce.wooe_message').html();
+        }
 
         var $response = jQuery("#wooe_ajax_res_send_email");
         $response.fadeIn();
@@ -70,7 +75,12 @@ jQuery(document).ready(function(){
 
         var heading = jQuery('#wooe_heading').val();
         var iFrameDOM = jQuery('iframe#wooe_message_ifr').contents();
-        var message = iFrameDOM.find('#tinymce.wooe_message').html();
+        var message;
+        if( jQuery('#wooe_message').is(':visible') ){
+            message = jQuery('#wooe_message').val();
+        } else {
+            message = iFrameDOM.find('#tinymce.wooe_message').html();
+        }
 
         jQuery('#tinymce').fadeOut();
         setTimeout(function(){
