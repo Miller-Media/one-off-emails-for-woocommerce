@@ -6,7 +6,7 @@
  * Author: Miller Media ( Michael Robinson )
  * Author URI: www.millermedia.io
  * Depends:
- * Version: 1.0
+ * Version: 1.0.3
  * WC tested up to: 3.2.6
  */
 

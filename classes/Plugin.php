@@ -64,6 +64,10 @@ class WooOneOffEmails
 
         wp_enqueue_style('wooe_admin_style', $this->adminStyle);
         wp_enqueue_script('wooe_admin_script', $this->adminScript, array ('jquery'));
+        wp_localize_script('wooe_admin_script', 'wooe', array(
+	        'ajaxurl' => admin_url( 'admin-ajax.php' ),
+	        'nonce' => wp_create_nonce('ajax_nonce')
+        ));
     }
 
     /**
@@ -72,22 +76,26 @@ class WooOneOffEmails
      */
     public function ajaxSendEmail ()
     {
+	    // Check the nonce.
+	    check_ajax_referer('ajax_nonce', 'nonce');
+
         $response = array ();
-        if ((!isset($_POST['to']) || !$_POST['to']) ||
-            (!isset($_POST['subject']) || !$_POST['subject']) ||
-            (!isset($_POST['heading']) || !$_POST['heading']) ||
-	        (!isset($_POST['message']) || !$_POST['message'])
+        if ((!isset($_POST['data']) || !$_POST['data']) ||
+        	(!isset($_POST['data']['to']) || !$_POST['data']['to']) ||
+            (!isset($_POST['data']['subject']) || !$_POST['data']['subject']) ||
+            (!isset($_POST['data']['heading']) || !$_POST['data']['heading']) ||
+	        (!isset($_POST['data']['message']) || !$_POST['data']['message'])
         ) {
-            $response['error'] = 'A required field is missing.';
+            $response['error'] = 'The following fields are required to send an email: To, Subject, Heading, Message.';
             wp_die(json_encode($response));
         }
 
-        $to = sanitize_text_field($_POST['to']);
-        $reply_to_name = sanitize_text_field($_POST['reply_to_name']);
-        $reply_to_email = sanitize_text_field($_POST['reply_to_email']);
-        $subject = sanitize_text_field($_POST['subject']);
-        $message = html_entity_decode(stripslashes($_POST['message']));
-        $heading = sanitize_text_field(stripslashes($_POST['heading']));
+        $to = sanitize_text_field($_POST['data']['to']);
+        $reply_to_name = sanitize_text_field($_POST['data']['reply_to_name']);
+        $reply_to_email = sanitize_text_field($_POST['data']['reply_to_email']);
+        $subject = sanitize_text_field(stripslashes($_POST['data']['subject']));
+        $message = html_entity_decode(stripslashes($_POST['data']['message']));
+        $heading = sanitize_text_field(stripslashes($_POST['data']['heading']));
 
         // Check each recipient address to verify that it's a valid email address.
 	    $addresses = explode(',', str_replace(' ', '', $to) );
@@ -121,16 +129,20 @@ class WooOneOffEmails
 	 */
 	public function ajaxPreviewEmail ()
 	{
+		// Check the nonce.
+		check_ajax_referer('ajax_nonce', 'nonce');
+
 		$response = array ();
-		if ((!isset($_POST['heading']) || !$_POST['heading']) ||
-			(!isset($_POST['message']) || !$_POST['message'])
+		if ((!isset($_POST['data']) || !$_POST['data']) ||
+			(!isset($_POST['data']['message']) || !$_POST['data']['message']) ||
+			(!isset($_POST['data']['heading']) || !$_POST['data']['heading'])
 		) {
-			$response['error'] = 'A required field is missing.';
+			$response['error'] = 'Heading and Message fields are required to preview the email.';
 			wp_die(json_encode($response));
 		}
 
-		$message = html_entity_decode(stripslashes($_POST['message']));
-		$heading = sanitize_text_field(stripslashes($_POST['heading']));
+		$message = html_entity_decode(stripslashes($_POST['data']['message']));
+		$heading = sanitize_text_field(stripslashes($_POST['data']['heading']));
 
 		$preview = $this->previewMail($heading, $message);
 		$response['message'] = $message;
@@ -185,7 +197,7 @@ class WooOneOffEmails
 
         }
 
-        return False;
+        return false;
     }
 
 	/**
