@@ -129,6 +129,11 @@ class WooOneOffEmails
 	 */
 	public function ajaxPreviewEmail ()
 	{
+        // prevent new relic script being added to the preview
+        if ( extension_loaded( 'newrelic' ) ) { // Ensure PHP agent is available
+            newrelic_disable_autorum();
+        }
+
 		// Check the nonce.
 		check_ajax_referer('ajax_nonce', 'nonce');
 
