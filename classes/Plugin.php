@@ -4,6 +4,8 @@ if (!defined('ABSPATH')) {
     die('Access denied.');
 }
 
+include_once('Settings.php');
+
 /**
  * Plugin Class
  */
