@@ -10,21 +10,23 @@ $settings = array (
 				'title' => 'To: ',
 				'description' => '',
 				'placeholder' => 'example001@email.com, example002@email.com',
-                'required' => true
+                'required' => true,
 			),
 			array (
 				'name' => 'wooe_reply_to_name',
 				'type' => 'text',
 				'title' => 'Reply To Name: ',
 				'description' => '',
-				'placeholder' => get_option( 'woocommerce_email_from_name' )
+				'placeholder' => get_option( 'woocommerce_email_from_name' ),
+                'required' => false,
 			),
 			array (
 				'name' => 'wooe_reply_to_email',
 				'type' => 'email',
 				'title' => 'Reply To Email: ',
 				'description' => '',
-				'placeholder' => get_option( 'woocommerce_email_from_address' )
+				'placeholder' => get_option( 'woocommerce_email_from_address' ),
+                'required' => false,
 			),
 			array (
 				'name' => 'wooe_subject',
@@ -32,7 +34,7 @@ $settings = array (
 				'title' => 'Subject: ',
 				'description' => '',
 				'placeholder' => '',
-				'required' => true
+				'required' => true,
 			),
 			array (
 				'name' => 'wooe_heading',
@@ -40,7 +42,7 @@ $settings = array (
 				'title' => 'Heading: ',
 				'description' => '',
 				'placeholder' => '',
-				'required' => true
+				'required' => true,
 			),
 			array (
 				'name' => 'wooe_message',
@@ -48,9 +50,9 @@ $settings = array (
 				'title' => 'Message: ',
 				'description' => '',
 				'placeholder' => '',
-				'required' => true
-			)
-		)
+				'required' => true,
+			),
+		),
 	),
 );
 ?>
