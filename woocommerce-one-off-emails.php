@@ -6,11 +6,10 @@
  * Author: Miller Media ( Michael Robinson )
  * Author URI: www.millermedia.io
  * Depends:
- * Version: 1.0.4
- * WC tested up to: 3.2.6
+ * Version: 1.0.5
+ * WC tested up to: 3.7.0
  */
 
 include_once('classes/Plugin.php');
-include_once('classes/Settings.php');
 
 $WooOneOffEmails = new WooOneOffEmails();
