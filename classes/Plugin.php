@@ -42,8 +42,8 @@ class WooOneOffEmails
 	{
 		$this->settingsPage = new WooOneOffEmailsSettings();
 
-		$this->adminStyle = plugins_url('woocommerce-one-off-emails/assets/css/admin.css', 'woocommerce-one-off-emails.php');
-		$this->adminScript = plugins_url('woocommerce-one-off-emails/assets/js/admin.js', 'woocommerce-one-off-emails.php');
+		$this->adminStyle = plugins_url('one-off-emails-for-woocommerce/assets/css/admin.css', 'one-off-emails-for-woocommerce.php');
+		$this->adminScript = plugins_url('one-off-emails-for-woocommerce/assets/js/admin.js', 'one-off-emails-for-woocommerce.php');
 
 		// Hooks
 		add_action('admin_enqueue_scripts', array ($this, 'adminEnqueueScripts'), 40, 1);
