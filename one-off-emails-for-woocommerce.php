@@ -2,12 +2,12 @@
 /**
  * Plugin Name: One-Off Emails For WooCommerce
  * Plugin URI:
- * Description: Send an email with custom content to anybody using the WooCommerce template.
- * Author: Miller Media ( Michael Robinson )
+ * Description: Send a single email with custom content to anybody using the WooCommerce template.
+ * Author: Miller Media
  * Author URI: www.millermedia.io
  * Depends:
- * Version: 1.1
- * WC tested up to: 3.7.0
+ * Version: 1.1.1
+ * WC tested up to: 3.9.2
  */
 
 include_once('classes/Plugin.php');

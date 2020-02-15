@@ -33,8 +33,8 @@ class WooOneOffEmailsSettings
 	{
 		add_submenu_page(
 			'woocommerce',
-			'WooCommerce One-off Emails',
-			'One-off Emails',
+			'WooCommerce One-Off Emails',
+			'One-Off Emails',
 			'manage_options',
 			'wooe-menu',
 			array($this, 'addMenuCB')
