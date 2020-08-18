@@ -7,7 +7,7 @@
  * Author URI: www.millermedia.io
  * Depends:
  * Version: 1.1.1
- * WC tested up to: 3.9.2
+ * WC tested up to: 4.4.0
  */
 
 include_once('classes/Plugin.php');
