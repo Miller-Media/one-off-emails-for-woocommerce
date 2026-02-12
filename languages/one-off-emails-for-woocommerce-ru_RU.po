@@ -1,0 +1,53 @@
+# Russian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-12 22:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Russian\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Heading: "
+msgstr "Заголовок: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Для предварительного просмотра письма необходимо заполнить поля Заголовок и Сообщение."
+
+msgid "Message: "
+msgstr "Сообщение: "
+
+msgid "No valid email addresses provided."
+msgstr "Не указаны действительные адреса электронной почты."
+
+msgid "One-Off Emails"
+msgstr "Разовые письма"
+
+msgid "Preview"
+msgstr "Предпросмотр"
+
+msgid "Reply To Email: "
+msgstr "E-mail для ответа: "
+
+msgid "Reply To Name: "
+msgstr "Имя для ответа: "
+
+msgid "Send"
+msgstr "Отправить"
+
+msgid "Subject: "
+msgstr "Тема: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Для отправки письма необходимо заполнить следующие поля: Кому, Тема, Заголовок, Сообщение."
+
+msgid "To: "
+msgstr "Кому: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce Разовые письма"

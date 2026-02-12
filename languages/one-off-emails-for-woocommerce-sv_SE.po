@@ -1,0 +1,53 @@
+# Swedish translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-12 22:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Swedish\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Rubrik: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Fälten Rubrik och Meddelande krävs för att förhandsgranska e-postmeddelandet."
+
+msgid "Message: "
+msgstr "Meddelande: "
+
+msgid "No valid email addresses provided."
+msgstr "Inga giltiga e-postadresser angavs."
+
+msgid "One-Off Emails"
+msgstr "Engångsmeddelanden"
+
+msgid "Preview"
+msgstr "Förhandsgranska"
+
+msgid "Reply To Email: "
+msgstr "Svars-e-post: "
+
+msgid "Reply To Name: "
+msgstr "Svarsnamn: "
+
+msgid "Send"
+msgstr "Skicka"
+
+msgid "Subject: "
+msgstr "Ämne: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Följande fält krävs för att skicka ett e-postmeddelande: Till, Ämne, Rubrik, Meddelande."
+
+msgid "To: "
+msgstr "Till: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce Engångsmeddelanden"

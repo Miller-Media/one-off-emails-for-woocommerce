@@ -1,0 +1,53 @@
+# Portuguese (Brazil) translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-12 22:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Portuguese (Brazil)\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Heading: "
+msgstr "Cabeçalho: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Os campos Cabeçalho e Mensagem são obrigatórios para visualizar o e-mail."
+
+msgid "Message: "
+msgstr "Mensagem: "
+
+msgid "No valid email addresses provided."
+msgstr "Nenhum endereço de e-mail válido fornecido."
+
+msgid "One-Off Emails"
+msgstr "E-mails avulsos"
+
+msgid "Preview"
+msgstr "Visualizar"
+
+msgid "Reply To Email: "
+msgstr "E-mail de resposta: "
+
+msgid "Reply To Name: "
+msgstr "Nome de resposta: "
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Subject: "
+msgstr "Assunto: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Os seguintes campos são obrigatórios para enviar um e-mail: Para, Assunto, Cabeçalho, Mensagem."
+
+msgid "To: "
+msgstr "Para: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "E-mails avulsos do WooCommerce"
