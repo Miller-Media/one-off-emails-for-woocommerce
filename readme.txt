@@ -3,8 +3,9 @@ Contributors: MillerMediaNow, millermediadev, mikemm01
 Tags: email, woocommerce, email template, customer
 Requires PHP: 5.6
 Requires at least: 3.0
-Tested up to: 5.8
-Stable tag: 1.1.1
+Tested up to: 6.9.1
+Stable tag: 1.2.0
+WC tested up to: 9.6
 License: GPLv2
 
 The One-Off Emails for WooCommerce plugin allows WooCommerce admins to send emails to any user or customer using the standard store template that other emails (order confirmation, shipment tracking, account updates) are sent. This allows you to more easily communicate with your customers while maintaining brand consistency.
@@ -30,6 +31,11 @@ If you find that a part of this plugin isn't working, let us know what's broken 
 2. Sample email content with default WooCommerce email template
 
 == Changelog ==
+
+= 1.2.0 =
+* Added internationalization (i18n) support for all user-facing strings
+* Updated compatibility to WordPress 6.9.1
+* Added Text Domain and Domain Path headers
 
 = 1.1.1 =
 * Small text change on settings screen
