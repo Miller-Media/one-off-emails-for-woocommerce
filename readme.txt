@@ -8,7 +8,7 @@ Stable tag: 1.2.1
 WC tested up to: 9.6
 License: GPLv2
 
-The One-Off Emails for WooCommerce plugin allows WooCommerce admins to send emails to any user or customer using the standard store template that other emails (order confirmation, shipment tracking, account updates) are sent. This allows you to more easily communicate with your customers while maintaining brand consistency.
+Send custom emails to any user or customer using your WooCommerce store's email template.
 
 == Description ==
 
