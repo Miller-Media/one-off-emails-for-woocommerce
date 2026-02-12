@@ -4,7 +4,7 @@ Tags: email, woocommerce, email template, customer
 Requires PHP: 5.6
 Requires at least: 3.0
 Tested up to: 6.9.1
-Stable tag: 1.2.0
+Stable tag: 1.2.1
 WC tested up to: 9.6
 License: GPLv2
 
@@ -25,12 +25,34 @@ The One-Off Emails for WooCommerce plugin allows WooCommerce admins to send emai
 
 If you find that a part of this plugin isn't working, let us know what's broken in [its support forum](https://wordpress.org/support/plugin/one-off-emails-for-woocommerce/) so we can make it better. Thanks!
 
+== Localizations ==
+
+One-Off Emails for WooCommerce is available in the following languages:
+
+* English
+* Spanish (Español)
+* Japanese (日本語)
+* German (Deutsch)
+* French (Français)
+* Chinese Simplified (简体中文)
+* Portuguese - Brazil (Português do Brasil)
+* Italian (Italiano)
+* Russian (Русский)
+* Polish (Polski)
+* Dutch (Nederlands)
+* Turkish (Türkçe)
+* Swedish (Svenska)
+
 == Screenshots ==
 
 1. Sample email
 2. Sample email content with default WooCommerce email template
 
 == Changelog ==
+
+= 1.2.1 =
+* Added translations for 12 languages: Spanish, Japanese, German, French, Chinese (Simplified), Portuguese (Brazil), Italian, Russian, Polish, Dutch, Turkish, and Swedish
+* Added localization section to readme
 
 = 1.2.0 =
 * Added internationalization (i18n) support for all user-facing strings
