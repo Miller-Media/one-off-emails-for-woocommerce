@@ -1,0 +1,53 @@
+# Chinese (Simplified) translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-12 22:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Heading: "
+msgstr "标题： "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "预览电子邮件需要填写标题和消息字段。"
+
+msgid "Message: "
+msgstr "消息： "
+
+msgid "No valid email addresses provided."
+msgstr "未提供有效的电子邮件地址。"
+
+msgid "One-Off Emails"
+msgstr "一次性邮件"
+
+msgid "Preview"
+msgstr "预览"
+
+msgid "Reply To Email: "
+msgstr "回复邮箱： "
+
+msgid "Reply To Name: "
+msgstr "回复名称： "
+
+msgid "Send"
+msgstr "发送"
+
+msgid "Subject: "
+msgstr "主题： "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "发送电子邮件需要以下字段：收件人、主题、标题、消息。"
+
+msgid "To: "
+msgstr "收件人： "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce 一次性邮件"

@@ -1,0 +1,53 @@
+# Italian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-12 22:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Intestazione: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "I campi Intestazione e Messaggio sono obbligatori per visualizzare l'anteprima dell'e-mail."
+
+msgid "Message: "
+msgstr "Messaggio: "
+
+msgid "No valid email addresses provided."
+msgstr "Nessun indirizzo e-mail valido fornito."
+
+msgid "One-Off Emails"
+msgstr "E-mail una tantum"
+
+msgid "Preview"
+msgstr "Anteprima"
+
+msgid "Reply To Email: "
+msgstr "E-mail di risposta: "
+
+msgid "Reply To Name: "
+msgstr "Nome di risposta: "
+
+msgid "Send"
+msgstr "Invia"
+
+msgid "Subject: "
+msgstr "Oggetto: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "I seguenti campi sono obbligatori per inviare un'e-mail: A, Oggetto, Intestazione, Messaggio."
+
+msgid "To: "
+msgstr "A: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "E-mail una tantum di WooCommerce"

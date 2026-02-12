@@ -1,0 +1,53 @@
+# Turkish translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-12 22:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Turkish\n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Başlık: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "E-postayı önizlemek için Başlık ve Mesaj alanları gereklidir."
+
+msgid "Message: "
+msgstr "Mesaj: "
+
+msgid "No valid email addresses provided."
+msgstr "Geçerli e-posta adresi sağlanmadı."
+
+msgid "One-Off Emails"
+msgstr "Tek seferlik e-postalar"
+
+msgid "Preview"
+msgstr "Önizleme"
+
+msgid "Reply To Email: "
+msgstr "Yanıt e-postası: "
+
+msgid "Reply To Name: "
+msgstr "Yanıt adı: "
+
+msgid "Send"
+msgstr "Gönder"
+
+msgid "Subject: "
+msgstr "Konu: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Bir e-posta göndermek için aşağıdaki alanlar gereklidir: Kime, Konu, Başlık, Mesaj."
+
+msgid "To: "
+msgstr "Kime: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce Tek Seferlik E-postalar"
