@@ -2,12 +2,12 @@
 
 // The email fields.
 $settings = array (
-	'WooCommerce One-Off Emails' => array (
+	__('WooCommerce One-Off Emails', 'one-off-emails-for-woocommerce') => array (
 		'fields' => array (
 			array (
 				'name' => 'wooe_to',
 				'type' => 'text',
-				'title' => 'To: ',
+				'title' => __('To: ', 'one-off-emails-for-woocommerce'),
 				'description' => '',
 				'placeholder' => 'example001@email.com, example002@email.com',
 				'required' => true,
@@ -15,7 +15,7 @@ $settings = array (
 			array (
 				'name' => 'wooe_reply_to_name',
 				'type' => 'text',
-				'title' => 'Reply To Name: ',
+				'title' => __('Reply To Name: ', 'one-off-emails-for-woocommerce'),
 				'description' => '',
 				'placeholder' => get_option( 'woocommerce_email_from_name' ),
 				'required' => false,
@@ -23,7 +23,7 @@ $settings = array (
 			array (
 				'name' => 'wooe_reply_to_email',
 				'type' => 'email',
-				'title' => 'Reply To Email: ',
+				'title' => __('Reply To Email: ', 'one-off-emails-for-woocommerce'),
 				'description' => '',
 				'placeholder' => get_option( 'woocommerce_email_from_address' ),
 				'required' => false,
@@ -31,7 +31,7 @@ $settings = array (
 			array (
 				'name' => 'wooe_subject',
 				'type' => 'text',
-				'title' => 'Subject: ',
+				'title' => __('Subject: ', 'one-off-emails-for-woocommerce'),
 				'description' => '',
 				'placeholder' => '',
 				'required' => true,
@@ -39,7 +39,7 @@ $settings = array (
 			array (
 				'name' => 'wooe_heading',
 				'type' => 'text',
-				'title' => 'Heading: ',
+				'title' => __('Heading: ', 'one-off-emails-for-woocommerce'),
 				'description' => '',
 				'placeholder' => '',
 				'required' => true,
@@ -47,7 +47,7 @@ $settings = array (
 			array (
 				'name' => 'wooe_message',
 				'type' => 'textarea',
-				'title' => 'Message: ',
+				'title' => __('Message: ', 'one-off-emails-for-woocommerce'),
 				'description' => '',
 				'placeholder' => '',
 				'required' => true,
@@ -63,19 +63,19 @@ $settings = array (
 			foreach ($settings as $section => $fields) {
 				?>
 				<tr class="tr-section-title">
-					<td><h2><?php echo $section; ?></h2><br></td>
+					<td><h2><?php echo esc_html($section); ?></h2><br></td>
 				</tr>
 				<?php
 				foreach ($fields['fields'] as $field => $data) {
 					if ($data['type'] == 'textarea') {
 						?>
 						<tr>
-							<td valign="top"><strong><label for="<?php echo $data['name']; ?>"><?php echo $data['title']; ?><?php echo $data['required'] ? '<sup class="required">*</sup>' : ''; ?>
+							<td valign="top"><strong><label for="<?php echo esc_attr($data['name']); ?>"><?php echo esc_html($data['title']); ?><?php echo $data['required'] ? '<sup class="required">*</sup>' : ''; ?>
 								</strong></label>
 								<?php
 								if (isset($data['description']) && $data['description']) {
 									?>
-									<br><?php echo $data['description']; ?>
+									<br><?php echo esc_html($data['description']); ?>
 									<?php
 								}
 								?>
@@ -92,17 +92,17 @@ $settings = array (
 						$placeholder = (isset($data['placeholder']) ? $data['placeholder'] : '');
 						?>
 						<tr>
-							<td><strong><label for="<?php echo $data['name']; ?>"><?php echo $data['title']; ?><?php echo $data['required'] ? '<sup class="required">*</sup>' : ''; ?>
+							<td><strong><label for="<?php echo esc_attr($data['name']); ?>"><?php echo esc_html($data['title']); ?><?php echo $data['required'] ? '<sup class="required">*</sup>' : ''; ?>
 								</strong></label>
 								<?php
 								if (isset($data['description']) && $data['description']) {
 									?>
-									<br><?php echo $data['description']; ?>
+									<br><?php echo esc_html($data['description']); ?>
 									<?php
 								}
 								?>
 							</td>
-							<td><input id="<?php echo $data['name']; ?>" type="<?php echo $data['type']; ?>" name="<?php echo $data['name']; ?>" value="" placeholder="<?php echo $placeholder; ?>"></td>
+							<td><input id="<?php echo esc_attr($data['name']); ?>" type="<?php echo esc_attr($data['type']); ?>" name="<?php echo esc_attr($data['name']); ?>" value="" placeholder="<?php echo esc_attr($placeholder); ?>"></td>
 						</tr>
 						<?php
 					}
@@ -111,8 +111,8 @@ $settings = array (
 			?>
 			</tbody>
 		</table>
-		<button id="wooe_send_email" class="button button-primary">Send</button>
-		<button id="wooe_preview_email" class="button button-default">Preview</button>
+		<button id="wooe_send_email" class="button button-primary"><?php echo esc_html__('Send', 'one-off-emails-for-woocommerce'); ?></button>
+		<button id="wooe_preview_email" class="button button-default"><?php echo esc_html__('Preview', 'one-off-emails-for-woocommerce'); ?></button>
 		<div id="wooe_ajax_res_send_email"></div>
 		<div id="wooe_preview_window"></div>
 	</form>

@@ -40,6 +40,8 @@ class WooOneOffEmails
 	 */
 	public function __construct ()
 	{
+		load_plugin_textdomain('one-off-emails-for-woocommerce', false, dirname(plugin_basename(dirname(__FILE__))) . '/languages/');
+
 		$this->settingsPage = new WooOneOffEmailsSettings();
 
 		$this->adminStyle = plugins_url('one-off-emails-for-woocommerce/assets/css/admin.css', 'one-off-emails-for-woocommerce.php');
@@ -88,7 +90,7 @@ class WooOneOffEmails
 			(!isset($_POST['data']['heading']) || !$_POST['data']['heading']) ||
 			(!isset($_POST['data']['message']) || !$_POST['data']['message'])
 		) {
-			$response['error'] = 'The following fields are required to send an email: To, Subject, Heading, Message.';
+			$response['error'] = __('The following fields are required to send an email: To, Subject, Heading, Message.', 'one-off-emails-for-woocommerce');
 			wp_die(json_encode($response));
 		}
 
@@ -107,7 +109,7 @@ class WooOneOffEmails
 				$valid_addresses[] = $address;
 		}
 		if( !count($valid_addresses) ){
-			$response['error'] = 'No valid email addresses provided.';
+			$response['error'] = __('No valid email addresses provided.', 'one-off-emails-for-woocommerce');
 			wp_die(json_encode($response));
 		}
 		$to = implode(',', $valid_addresses);
@@ -144,7 +146,7 @@ class WooOneOffEmails
 			(!isset($_POST['data']['message']) || !$_POST['data']['message']) ||
 			(!isset($_POST['data']['heading']) || !$_POST['data']['heading'])
 		) {
-			$response['error'] = 'Heading and Message fields are required to preview the email.';
+			$response['error'] = __('Heading and Message fields are required to preview the email.', 'one-off-emails-for-woocommerce');
 			wp_die(json_encode($response));
 		}
 
