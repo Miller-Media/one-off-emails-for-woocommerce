@@ -1,0 +1,56 @@
+# Indonesian (id_ID) translation for One-Off Emails for WooCommerce
+# Copyright (C) 2026 Miller Media
+# This file is distributed under the same license as the plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: One-Off Emails for WooCommerce 1.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 00:00+0000\n"
+"PO-Revision-Date: 2026-02-13 08:00+0000\n"
+"Last-Translator: Miller Media <dev@millermedia.io>\n"
+"Language-Team: Indonesian\n"
+"Language: id_ID\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Heading: "
+msgstr "Judul: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Kolom Judul dan Pesan wajib diisi untuk melihat pratinjau email."
+
+msgid "Message: "
+msgstr "Pesan: "
+
+msgid "No valid email addresses provided."
+msgstr "Tidak ada alamat email yang valid."
+
+msgid "One-Off Emails"
+msgstr "Email Satu Kali"
+
+msgid "Preview"
+msgstr "Pratinjau"
+
+msgid "Reply To Email: "
+msgstr "Balas Ke Email: "
+
+msgid "Reply To Name: "
+msgstr "Balas Ke Nama: "
+
+msgid "Send"
+msgstr "Kirim"
+
+msgid "Subject: "
+msgstr "Subjek: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Kolom berikut wajib diisi untuk mengirim email: Kepada, Subjek, Judul, Pesan."
+
+msgid "To: "
+msgstr "Kepada: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Email Satu Kali WooCommerce"
