@@ -1,0 +1,55 @@
+# Vietnamese translation for One-Off Emails for WooCommerce
+# Copyright (C) 2026 Miller Media
+# This file is distributed under the same license as the plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: One-Off Emails for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-14 13:00+0000\n"
+"PO-Revision-Date: 2026-02-14 13:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Vietnamese\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "One-Off Emails"
+msgstr "Email đơn lẻ"
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Email đơn lẻ WooCommerce"
+
+msgid "To: "
+msgstr "Đến: "
+
+msgid "Subject: "
+msgstr "Chủ đề: "
+
+msgid "Heading: "
+msgstr "Tiêu đề: "
+
+msgid "Message: "
+msgstr "Nội dung: "
+
+msgid "Reply To Name: "
+msgstr "Tên trả lời: "
+
+msgid "Reply To Email: "
+msgstr "Email trả lời: "
+
+msgid "Send"
+msgstr "Gửi"
+
+msgid "Preview"
+msgstr "Xem trước"
+
+msgid "No valid email addresses provided."
+msgstr "Không có địa chỉ email hợp lệ nào được cung cấp."
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Các trường Tiêu đề và Nội dung là bắt buộc để xem trước email."
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Các trường sau là bắt buộc để gửi email: Đến, Chủ đề, Tiêu đề, Nội dung."
