@@ -1,0 +1,53 @@
+# Hungarian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-15 12:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Hungarian\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Címsor: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "A Címsor és Üzenet mezők kitöltése szükséges az e-mail előnézetéhez."
+
+msgid "Message: "
+msgstr "Üzenet: "
+
+msgid "No valid email addresses provided."
+msgstr "Nem adtak meg érvényes e-mail címeket."
+
+msgid "One-Off Emails"
+msgstr "Egyszeri e-mailek"
+
+msgid "Preview"
+msgstr "Előnézet"
+
+msgid "Reply To Email: "
+msgstr "Válaszcím e-mail: "
+
+msgid "Reply To Name: "
+msgstr "Válaszcím név: "
+
+msgid "Send"
+msgstr "Küldés"
+
+msgid "Subject: "
+msgstr "Tárgy: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "A következő mezők kitöltése szükséges az e-mail küldéséhez: Címzett, Tárgy, Címsor, Üzenet."
+
+msgid "To: "
+msgstr "Címzett: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce egyszeri e-mailek"
