@@ -1,0 +1,53 @@
+# Lithuanian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-15 12:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Lithuanian\n"
+"Language: lt_LT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+msgid "Heading: "
+msgstr "Antraštė: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Antraštės ir žinutės laukai yra būtini el. laiško peržiūrai."
+
+msgid "Message: "
+msgstr "Žinutė: "
+
+msgid "No valid email addresses provided."
+msgstr "Nepateikta jokių galiojančių el. pašto adresų."
+
+msgid "One-Off Emails"
+msgstr "Vienkartiniai el. laiškai"
+
+msgid "Preview"
+msgstr "Peržiūra"
+
+msgid "Reply To Email: "
+msgstr "Atsakyti į el. paštą: "
+
+msgid "Reply To Name: "
+msgstr "Atsakyti vardui: "
+
+msgid "Send"
+msgstr "Siųsti"
+
+msgid "Subject: "
+msgstr "Tema: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Šie laukai yra būtini el. laiškui siųsti: Kam, Tema, Antraštė, Žinutė."
+
+msgid "To: "
+msgstr "Kam: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce vienkartiniai el. laiškai"
