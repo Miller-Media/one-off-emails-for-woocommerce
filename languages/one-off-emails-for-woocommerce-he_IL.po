@@ -1,0 +1,53 @@
+# Hebrew translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-14 19:30+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "כותרת: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "שדות כותרת והודעה נדרשים לתצוגה מקדימה של הדוא\"ל."
+
+msgid "Message: "
+msgstr "הודעה: "
+
+msgid "No valid email addresses provided."
+msgstr "לא סופקו כתובות דוא\"ל חוקיות."
+
+msgid "One-Off Emails"
+msgstr "דוא\"ל חד-פעמי"
+
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+msgid "Reply To Email: "
+msgstr "דוא\"ל לתשובה: "
+
+msgid "Reply To Name: "
+msgstr "שם לתשובה: "
+
+msgid "Send"
+msgstr "שלח"
+
+msgid "Subject: "
+msgstr "נושא: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "השדות הבאים נדרשים לשליחת דוא\"ל: אל, נושא, כותרת, הודעה."
+
+msgid "To: "
+msgstr "אל: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "דוא\"ל חד-פעמי של WooCommerce"
