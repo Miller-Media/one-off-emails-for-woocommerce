@@ -1,0 +1,53 @@
+# Thai translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-14 18:54+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Thai\n"
+"Language: th\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Heading: "
+msgstr "หัวเรื่อง: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "ต้องกรอกฟิลด์หัวเรื่องและข้อความเพื่อดูตัวอย่างอีเมล"
+
+msgid "Message: "
+msgstr "ข้อความ: "
+
+msgid "No valid email addresses provided."
+msgstr "ไม่มีที่อยู่อีเมลที่ถูกต้อง"
+
+msgid "One-Off Emails"
+msgstr "อีเมลครั้งเดียว"
+
+msgid "Preview"
+msgstr "ดูตัวอย่าง"
+
+msgid "Reply To Email: "
+msgstr "ตอบกลับที่อีเมล: "
+
+msgid "Reply To Name: "
+msgstr "ตอบกลับที่ชื่อ: "
+
+msgid "Send"
+msgstr "ส่ง"
+
+msgid "Subject: "
+msgstr "หัวเรื่อง: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "ฟิลด์ต่อไปนี้จำเป็นต้องกรอกเพื่อส่งอีเมล: ถึง, หัวเรื่อง, หัวข้อ, ข้อความ"
+
+msgid "To: "
+msgstr "ถึง: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce อีเมลครั้งเดียว"
