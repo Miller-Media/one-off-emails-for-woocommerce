@@ -1,0 +1,56 @@
+# Greek (el) translation for One-Off Emails for WooCommerce
+# Copyright (C) 2026 Miller Media
+# This file is distributed under the same license as the plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: One-Off Emails for WooCommerce 1.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 00:00+0000\n"
+"PO-Revision-Date: 2026-02-15 07:00+0000\n"
+"Last-Translator: Miller Media <dev@millermedia.io>\n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Επικεφαλίδα: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Τα πεδία Επικεφαλίδα και Μήνυμα απαιτούνται για την προεπισκόπηση του email."
+
+msgid "Message: "
+msgstr "Μήνυμα: "
+
+msgid "No valid email addresses provided."
+msgstr "Δεν παρέχονται έγκυρες διευθύνσεις email."
+
+msgid "One-Off Emails"
+msgstr "Μεμονωμένα Email"
+
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+msgid "Reply To Email: "
+msgstr "Απάντηση σε Email: "
+
+msgid "Reply To Name: "
+msgstr "Απάντηση σε Όνομα: "
+
+msgid "Send"
+msgstr "Αποστολή"
+
+msgid "Subject: "
+msgstr "Θέμα: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Τα ακόλουθα πεδία απαιτούνται για την αποστολή email: Προς, Θέμα, Επικεφαλίδα, Μήνυμα."
+
+msgid "To: "
+msgstr "Προς: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Μεμονωμένα Email WooCommerce"
