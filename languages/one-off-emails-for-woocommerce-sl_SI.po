@@ -1,0 +1,53 @@
+# Slovenian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-15 15:31+0000\n"
+"Last-Translator: \n"
+"Language-Team: Slovenian\n"
+"Language: sl_SI\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3);\n"
+
+msgid "Heading: "
+msgstr "Naslov: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Polja za naslov in sporočilo so obvezna za predogled e-pošte."
+
+msgid "Message: "
+msgstr "Sporočilo: "
+
+msgid "No valid email addresses provided."
+msgstr "Niso bili podani veljavni e-poštni naslovi."
+
+msgid "One-Off Emails"
+msgstr "Enkratna e-pošta"
+
+msgid "Preview"
+msgstr "Predogled"
+
+msgid "Reply To Email: "
+msgstr "Odgovori na e-pošto: "
+
+msgid "Reply To Name: "
+msgstr "Odgovori na ime: "
+
+msgid "Send"
+msgstr "Pošlji"
+
+msgid "Subject: "
+msgstr "Zadeva: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Za pošiljanje e-pošte so zahtevana naslednja polja: Za, Zadeva, Naslov, Sporočilo."
+
+msgid "To: "
+msgstr "Za: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce enkratna e-pošta"
