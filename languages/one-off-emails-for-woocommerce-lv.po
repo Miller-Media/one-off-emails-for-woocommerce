@@ -1,0 +1,53 @@
+# Latvian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-15 07:31+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Latvian\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+
+msgid "Heading: "
+msgstr "Virsraksts: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Virsraksta un ziņojuma lauki ir nepieciešami, lai priekšskatītu e-pastu."
+
+msgid "Message: "
+msgstr "Ziņojums: "
+
+msgid "No valid email addresses provided."
+msgstr "Nav norādītas derīgas e-pasta adreses."
+
+msgid "One-Off Emails"
+msgstr "Vienreizējie e-pasti"
+
+msgid "Preview"
+msgstr "Priekšskatījums"
+
+msgid "Reply To Email: "
+msgstr "Atbildēt uz e-pastu: "
+
+msgid "Reply To Name: "
+msgstr "Atbildēt uz vārdu: "
+
+msgid "Send"
+msgstr "Sūtīt"
+
+msgid "Subject: "
+msgstr "Temats: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Šādi lauki ir nepieciešami, lai nosūtītu e-pastu: Kam, Temats, Virsraksts, Ziņojums."
+
+msgid "To: "
+msgstr "Kam: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce vienreizējie e-pasti"
