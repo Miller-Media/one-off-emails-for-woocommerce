@@ -1,0 +1,53 @@
+# Norwegian (Bokmål) translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-15 00:00+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Norwegian (Bokmål)\n"
+"Language: no\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Overskrift: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Feltene Overskrift og Melding er påkrevd for å forhåndsvise e-posten."
+
+msgid "Message: "
+msgstr "Melding: "
+
+msgid "No valid email addresses provided."
+msgstr "Ingen gyldige e-postadresser oppgitt."
+
+msgid "One-Off Emails"
+msgstr "Engangse e-poster"
+
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+msgid "Reply To Email: "
+msgstr "Svar-til-e-post: "
+
+msgid "Reply To Name: "
+msgstr "Svar-til-navn: "
+
+msgid "Send"
+msgstr "Send"
+
+msgid "Subject: "
+msgstr "Emne: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Følgende felter er påkrevd for å sende en e-post: Til, Emne, Overskrift, Melding."
+
+msgid "To: "
+msgstr "Til: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce engangse e-poster"
