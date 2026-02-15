@@ -1,0 +1,53 @@
+# Arabic translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-14 19:08+0000\n"
+"PO-Revision-Date: 2026-02-14 19:08+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+
+msgid "Heading: "
+msgstr "العنوان: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "حقول العنوان والرسالة مطلوبة لمعاينة البريد الإلكتروني."
+
+msgid "Message: "
+msgstr "الرسالة: "
+
+msgid "No valid email addresses provided."
+msgstr "لم يتم توفير عناوين بريد إلكتروني صالحة."
+
+msgid "One-Off Emails"
+msgstr "رسائل بريد إلكتروني لمرة واحدة"
+
+msgid "Preview"
+msgstr "معاينة"
+
+msgid "Reply To Email: "
+msgstr "البريد الإلكتروني للرد: "
+
+msgid "Reply To Name: "
+msgstr "اسم الرد: "
+
+msgid "Send"
+msgstr "إرسال"
+
+msgid "Subject: "
+msgstr "الموضوع: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "الحقول التالية مطلوبة لإرسال بريد إلكتروني: إلى، الموضوع، العنوان، الرسالة."
+
+msgid "To: "
+msgstr "إلى: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "رسائل WooCommerce الإلكترونية لمرة واحدة"
