@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: One-Off Emails for WooCommerce 1.2.1\n"
 "Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
-"POT-Creation-Date: 2026-02-15 15:00+0000\n"
-"PO-Revision-Date: 2026-02-15 15:00+0000\n"
-"Last-Translator: Crash Override (AI)\n"
+"POT-Creation-Date: 2026-02-12 00:00+0000\n"
+"PO-Revision-Date: 2026-02-15 07:00+0000\n"
+"Last-Translator: Miller Media <dev@millermedia.io>\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
 "MIME-Version: 1.0\n"
@@ -20,25 +20,25 @@ msgid "Heading: "
 msgstr "Titlu: "
 
 msgid "Heading and Message fields are required to preview the email."
-msgstr "Câmpurile Titlu și Mesaj sunt necesare pentru a previzualiza e-mailul."
+msgstr "Câmpurile Titlu și Mesaj sunt necesare pentru previzualizarea emailului."
 
 msgid "Message: "
 msgstr "Mesaj: "
 
 msgid "No valid email addresses provided."
-msgstr "Nu au fost furnizate adrese de e-mail valide."
+msgstr "Nu a fost furnizată nicio adresă de email validă."
 
 msgid "One-Off Emails"
-msgstr "E-mailuri unice"
+msgstr "Emailuri unice"
 
 msgid "Preview"
 msgstr "Previzualizare"
 
 msgid "Reply To Email: "
-msgstr "E-mail pentru răspuns: "
+msgstr "Răspuns la email: "
 
 msgid "Reply To Name: "
-msgstr "Nume pentru răspuns: "
+msgstr "Răspuns la nume: "
 
 msgid "Send"
 msgstr "Trimite"
@@ -47,10 +47,10 @@ msgid "Subject: "
 msgstr "Subiect: "
 
 msgid "The following fields are required to send an email: To, Subject, Heading, Message."
-msgstr "Următoarele câmpuri sunt necesare pentru a trimite un e-mail: Către, Subiect, Titlu, Mesaj."
+msgstr "Următoarele câmpuri sunt necesare pentru a trimite un email: Către, Subiect, Titlu, Mesaj."
 
 msgid "To: "
 msgstr "Către: "
 
 msgid "WooCommerce One-Off Emails"
-msgstr "E-mailuri unice WooCommerce"
+msgstr "Emailuri unice WooCommerce"
