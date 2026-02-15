@@ -1,0 +1,56 @@
+# Romanian (ro_RO) translation for One-Off Emails for WooCommerce
+# Copyright (C) 2026 Miller Media
+# This file is distributed under the same license as the plugin.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: One-Off Emails for WooCommerce 1.2.1\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 00:00+0000\n"
+"PO-Revision-Date: 2026-02-15 07:00+0000\n"
+"Last-Translator: Miller Media <dev@millermedia.io>\n"
+"Language-Team: Romanian\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+
+msgid "Heading: "
+msgstr "Titlu: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Câmpurile Titlu și Mesaj sunt necesare pentru previzualizarea emailului."
+
+msgid "Message: "
+msgstr "Mesaj: "
+
+msgid "No valid email addresses provided."
+msgstr "Nu a fost furnizată nicio adresă de email validă."
+
+msgid "One-Off Emails"
+msgstr "Emailuri unice"
+
+msgid "Preview"
+msgstr "Previzualizare"
+
+msgid "Reply To Email: "
+msgstr "Răspuns la email: "
+
+msgid "Reply To Name: "
+msgstr "Răspuns la nume: "
+
+msgid "Send"
+msgstr "Trimite"
+
+msgid "Subject: "
+msgstr "Subiect: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Următoarele câmpuri sunt necesare pentru a trimite un email: Către, Subiect, Titlu, Mesaj."
+
+msgid "To: "
+msgstr "Către: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Emailuri unice WooCommerce"
