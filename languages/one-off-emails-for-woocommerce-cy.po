@@ -1,0 +1,53 @@
+# Welsh translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:22+0000\n"
+"PO-Revision-Date: 2026-02-16 11:22+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Welsh\n"
+"Language: cy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n==2) ? 1 : (n != 8 && n != 11) ? 2 : 3;\n"
+
+msgid "Heading: "
+msgstr "Pennawd: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Mae angen y meysydd Pennawd a Neges i ragweld yr e-bost."
+
+msgid "Message: "
+msgstr "Neges: "
+
+msgid "No valid email addresses provided."
+msgstr "Ni ddarparwyd cyfeiriadau e-bost dilys."
+
+msgid "One-Off Emails"
+msgstr "E-byst Untro"
+
+msgid "Preview"
+msgstr "Rhagolwg"
+
+msgid "Reply To Email: "
+msgstr "E-bost Ateb-I: "
+
+msgid "Reply To Name: "
+msgstr "Enw Ateb-I: "
+
+msgid "Send"
+msgstr "Anfon"
+
+msgid "Subject: "
+msgstr "Pwnc: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Mae'r meysydd canlynol yn angenrheidiol i anfon e-bost: At, Pwnc, Pennawd, Neges."
+
+msgid "To: "
+msgstr "At: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "E-byst Untro WooCommerce"
