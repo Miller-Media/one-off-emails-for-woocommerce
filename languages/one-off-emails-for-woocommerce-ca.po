@@ -1,0 +1,53 @@
+# Catalan translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-16 03:05+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Catalan\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Encapçalament: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Els camps Encapçalament i Missatge són obligatoris per previsualitzar el correu electrònic."
+
+msgid "Message: "
+msgstr "Missatge: "
+
+msgid "No valid email addresses provided."
+msgstr "No s'han proporcionat adreces electròniques vàlides."
+
+msgid "One-Off Emails"
+msgstr "Correus electrònics puntuals"
+
+msgid "Preview"
+msgstr "Previsualització"
+
+msgid "Reply To Email: "
+msgstr "Correu electrònic de resposta: "
+
+msgid "Reply To Name: "
+msgstr "Nom de resposta: "
+
+msgid "Send"
+msgstr "Envia"
+
+msgid "Subject: "
+msgstr "Assumpte: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Els camps següents són obligatoris per enviar un correu electrònic: Per a, Assumpte, Encapçalament, Missatge."
+
+msgid "To: "
+msgstr "Per a: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Correus electrònics puntuals de WooCommerce"
