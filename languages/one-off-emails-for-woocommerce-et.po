@@ -1,0 +1,53 @@
+# Estonian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:05+0000\n"
+"PO-Revision-Date: 2026-02-16 11:05+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Estonian\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Pealkiri: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "E-kirja eelvaateks on vajalikud pealkirja ja sõnumi väljad."
+
+msgid "Message: "
+msgstr "Sõnum: "
+
+msgid "No valid email addresses provided."
+msgstr "Kehtivaid e-posti aadresse ei esitatud."
+
+msgid "One-Off Emails"
+msgstr "Ühekordsed e-kirjad"
+
+msgid "Preview"
+msgstr "Eelvaade"
+
+msgid "Reply To Email: "
+msgstr "Vastamise e-post: "
+
+msgid "Reply To Name: "
+msgstr "Vastamise nimi: "
+
+msgid "Send"
+msgstr "Saada"
+
+msgid "Subject: "
+msgstr "Teema: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "E-kirja saatmiseks on vajalikud järgmised väljad: Saaja, Teema, Pealkiri, Sõnum."
+
+msgid "To: "
+msgstr "Saaja: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce'i ühekordsed e-kirjad"
