@@ -116,4 +116,22 @@ $settings = array (
 		<div id="wooe_ajax_res_send_email"></div>
 		<div id="wooe_preview_window"></div>
 	</form>
+
+	<hr />
+	<h2><?php esc_html_e('Plugin Settings', 'one-off-emails-for-woocommerce'); ?></h2>
+	<form method="post" action="options.php">
+		<?php settings_fields('wooe_settings_group'); ?>
+		<table class="form-table">
+			<tr>
+				<th scope="row"><?php esc_html_e('Remove all plugin data when deleted', 'one-off-emails-for-woocommerce'); ?></th>
+				<td>
+					<label>
+						<input type="checkbox" name="wooe_delete_data_on_uninstall" value="1" <?php checked(get_option('wooe_delete_data_on_uninstall'), '1'); ?>>
+						<?php esc_html_e('Check this box if you want all plugin settings and data to be removed when the plugin is deleted.', 'one-off-emails-for-woocommerce'); ?>
+					</label>
+				</td>
+			</tr>
+		</table>
+		<?php submit_button(esc_html__('Save Settings', 'one-off-emails-for-woocommerce')); ?>
+	</form>
 <?php
