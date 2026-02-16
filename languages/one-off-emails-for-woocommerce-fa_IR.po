@@ -1,0 +1,53 @@
+# Persian (Farsi) translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:23+0000\n"
+"PO-Revision-Date: 2026-02-16 11:23+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+msgid "Heading: "
+msgstr "عنوان: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "فیلدهای عنوان و پیام برای پیش‌نمایش ایمیل الزامی هستند."
+
+msgid "Message: "
+msgstr "پیام: "
+
+msgid "No valid email addresses provided."
+msgstr "هیچ آدرس ایمیل معتبری ارائه نشده است."
+
+msgid "One-Off Emails"
+msgstr "ایمیل‌های یک‌باره"
+
+msgid "Preview"
+msgstr "پیش‌نمایش"
+
+msgid "Reply To Email: "
+msgstr "ایمیل پاسخ‌دهی: "
+
+msgid "Reply To Name: "
+msgstr "نام پاسخ‌دهی: "
+
+msgid "Send"
+msgstr "ارسال"
+
+msgid "Subject: "
+msgstr "موضوع: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "فیلدهای زیر برای ارسال ایمیل الزامی هستند: گیرنده، موضوع، عنوان، پیام."
+
+msgid "To: "
+msgstr "گیرنده: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "ایمیل‌های یک‌باره WooCommerce"
