@@ -4,7 +4,7 @@ Tags: email, woocommerce, email template, customer
 Requires PHP: 7.4
 Requires at least: 3.0
 Tested up to: 6.9.1
-Stable tag: 1.2.1
+Stable tag: 1.3.0
 WC tested up to: 9.6
 License: GPLv2
 
@@ -108,6 +108,16 @@ The plugin is available in 30 languages with more being added regularly. We are 
 2. Sample email content with default WooCommerce email template
 
 == Changelog ==
+
+= 1.3.0 =
+* Added translations for 50 languages
+* Added POT translation template file
+* Added opt-in data cleanup on plugin deletion
+* Updated minimum PHP requirement to 7.4
+* Added Settings link on Plugins page
+* Updated FAQ section
+* Updated readme with complete language list
+
 
 = 1.2.1 =
 * Added translations for 12 languages: Spanish, Japanese, German, French, Chinese (Simplified), Portuguese (Brazil), Italian, Russian, Polish, Dutch, Turkish, and Swedish

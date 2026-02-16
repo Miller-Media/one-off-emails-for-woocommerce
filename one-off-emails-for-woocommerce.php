@@ -6,14 +6,14 @@
  * Author: Miller Media
  * Author URI: www.millermedia.io
  * Depends:
- * Version: 1.2.1
+ * Version:           1.3.0
  * WC tested up to: 9.6
  * Requires PHP: 7.4
  * Text Domain: one-off-emails-for-woocommerce
  * Domain Path: /languages
  */
 
-define('WOOE_PLUGIN_VERSION', '1.2.1');
+define( 'WOOE_PLUGIN_VERSION', '1.3.0' );
 
 include_once('classes/Plugin.php');
 
