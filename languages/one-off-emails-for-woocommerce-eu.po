@@ -1,0 +1,53 @@
+# Basque translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:05+0000\n"
+"PO-Revision-Date: 2026-02-16 11:05+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Basque\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Goiburua: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Goiburua eta Mezua eremuak beharrezkoak dira mezu elektronikoa aurreikusteko."
+
+msgid "Message: "
+msgstr "Mezua: "
+
+msgid "No valid email addresses provided."
+msgstr "Ez da helbide elektroniko baliogarririk eman."
+
+msgid "One-Off Emails"
+msgstr "Behin-behineko mezu elektronikoak"
+
+msgid "Preview"
+msgstr "Aurreikusi"
+
+msgid "Reply To Email: "
+msgstr "Erantzun-helbide elektronikoa: "
+
+msgid "Reply To Name: "
+msgstr "Erantzun-izena: "
+
+msgid "Send"
+msgstr "Bidali"
+
+msgid "Subject: "
+msgstr "Gaia: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Eremu hauek beharrezkoak dira mezu elektroniko bat bidaltzeko: Nori, Gaia, Goiburua, Mezua."
+
+msgid "To: "
+msgstr "Nori: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce behin-behineko mezu elektronikoak"
