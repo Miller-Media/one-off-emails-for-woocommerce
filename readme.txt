@@ -60,6 +60,28 @@ One-Off Emails for WooCommerce is available in the following languages:
 * Turkish (Türkçe)
 * Vietnamese (Tiếng Việt)
 
+== Frequently Asked Questions ==
+
+= Where do I find the email sending feature? =
+
+Go to WooCommerce > One-Off Emails in your WordPress admin. From there you can compose and send custom emails to any user or customer.
+
+= Does it use my WooCommerce email template? =
+
+Yes! Emails are sent using your store's standard WooCommerce email template, maintaining brand consistency with order confirmations and other WooCommerce emails.
+
+= Can I send emails to non-registered users? =
+
+The plugin allows you to send emails to any email address associated with a user or customer in your WooCommerce store.
+
+= Does this plugin require WooCommerce? =
+
+Yes. One-Off Emails for WooCommerce requires WooCommerce to be installed and active in order to use its email templating system.
+
+= What languages are supported? =
+
+The plugin is available in 30 languages with more being added regularly. We are working toward supporting 50 languages total!
+
 == Screenshots ==
 
 1. Sample email
