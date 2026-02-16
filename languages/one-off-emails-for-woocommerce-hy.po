@@ -1,0 +1,54 @@
+# Armenian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16T11:28:05+00:00\n"
+"PO-Revision-Date: 2026-02-16 11:28+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Armenian\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+
+msgid "Heading: "
+msgstr "Վերնագիր. "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Վերնագիր և հաղորդագրություն դաշտերը պարտադիր են նախադիտման համար."
+
+msgid "Message: "
+msgstr "Հաղորդագրություն. "
+
+msgid "No valid email addresses provided."
+msgstr "Վավեր էլեկտրոնային հասցեներ չեն տրամադրվել."
+
+msgid "One-Off Emails"
+msgstr "Միանգամյա նամակներ"
+
+msgid "Preview"
+msgstr "Նախադիտման"
+
+msgid "Reply To Email: "
+msgstr "Պատասխանի էլ. հասցե. "
+
+msgid "Reply To Name: "
+msgstr "Պատասխանի անուն. "
+
+msgid "Send"
+msgstr "Ուղարկել"
+
+msgid "Subject: "
+msgstr "Նյութ. "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Հետևյալ դաշտերը պարտադիր են նամակ ուղարկելու համար. ՈւմՍ ՆյութՍ ՎերնագիրՍ Հաղորդագրություն."
+
+msgid "To: "
+msgstr "Ում. "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce միանգամյա նամակներ"
