@@ -16,4 +16,10 @@ define('WOOE_PLUGIN_VERSION', '1.2.1');
 
 include_once('classes/Plugin.php');
 
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), function($links) {
+	$settings_link = '<a href="' . admin_url('admin.php?page=wooe-menu') . '">' . __('Settings', 'one-off-emails-for-woocommerce') . '</a>';
+	array_unshift($links, $settings_link);
+	return $links;
+});
+
 $WooOneOffEmails = new WooOneOffEmails();
