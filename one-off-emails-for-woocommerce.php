@@ -8,6 +8,7 @@
  * Depends:
  * Version:           1.3.0
  * WC tested up to: 9.6
+ * Requires PHP: 7.4
  * Text Domain: one-off-emails-for-woocommerce
  * Domain Path: /languages
  */

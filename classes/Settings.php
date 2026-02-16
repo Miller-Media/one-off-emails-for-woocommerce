@@ -23,6 +23,15 @@ class WooOneOffEmailsSettings
 	{
 		// Hooks
 		add_action('admin_menu', array($this, 'addMenu'));
+		add_action('admin_init', array($this, 'registerSettings'));
+	}
+
+	/**
+	 * Register plugin settings.
+	 */
+	public function registerSettings()
+	{
+		register_setting('wooe_settings_group', 'wooe_delete_data_on_uninstall');
 	}
 
 	/**
