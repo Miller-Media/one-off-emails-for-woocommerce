@@ -1,0 +1,53 @@
+# Irish translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:22+0000\n"
+"PO-Revision-Date: 2026-02-16 11:22+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Irish\n"
+"Language: ga\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=5; plural=(n==1 ? 0 : n==2 ? 1 : n<7 ? 2 : n<11 ? 3 : 4);\n"
+
+msgid "Heading: "
+msgstr "Ceannteideal: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Tá réimsí Ceannteideal agus Teachtaireacht riachtanach chun réamhamharc a dhéanamh ar an ríomhphost."
+
+msgid "Message: "
+msgstr "Teachtaireacht: "
+
+msgid "No valid email addresses provided."
+msgstr "Níor soláthraíodh seoltaí ríomhphoist bailí."
+
+msgid "One-Off Emails"
+msgstr "Ríomhphoist Aonuaire"
+
+msgid "Preview"
+msgstr "Réamhamharc"
+
+msgid "Reply To Email: "
+msgstr "Ríomhphost Freagra-Chuig: "
+
+msgid "Reply To Name: "
+msgstr "Ainm Freagra-Chuig: "
+
+msgid "Send"
+msgstr "Seol"
+
+msgid "Subject: "
+msgstr "Ábhar: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Tá na réimsí seo a leanas riachtanach chun ríomhphost a sheoladh: Chuig, Ábhar, Ceannteideal, Teachtaireacht."
+
+msgid "To: "
+msgstr "Chuig: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Ríomhphoist Aonuaire WooCommerce"
