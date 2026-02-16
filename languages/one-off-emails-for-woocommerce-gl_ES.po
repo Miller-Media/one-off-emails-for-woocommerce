@@ -1,0 +1,53 @@
+# Galician translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:05+0000\n"
+"PO-Revision-Date: 2026-02-16 11:05+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Galician\n"
+"Language: gl_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "Encabezamento: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Os campos de encabezamento e mensaxe son necesarios para previsualizar o correo electrónico."
+
+msgid "Message: "
+msgstr "Mensaxe: "
+
+msgid "No valid email addresses provided."
+msgstr "Non se proporcionaron enderezos de correo electrónico válidos."
+
+msgid "One-Off Emails"
+msgstr "Correos electrónicos puntuais"
+
+msgid "Preview"
+msgstr "Previsualizar"
+
+msgid "Reply To Email: "
+msgstr "Correo electrónico de resposta: "
+
+msgid "Reply To Name: "
+msgstr "Nome de resposta: "
+
+msgid "Send"
+msgstr "Enviar"
+
+msgid "Subject: "
+msgstr "Asunto: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Os seguintes campos son necesarios para enviar un correo electrónico: Para, Asunto, Encabezamento, Mensaxe."
+
+msgid "To: "
+msgstr "Para: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Correos electrónicos puntuais de WooCommerce"
