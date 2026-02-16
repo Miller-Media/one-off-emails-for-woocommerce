@@ -1,0 +1,53 @@
+# Macedonian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-12 22:00+0000\n"
+"PO-Revision-Date: 2026-02-16\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Macedonian\n"
+"Language: mk_MK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);\n"
+
+msgid "Heading: "
+msgstr "Наслов: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Полињата Наслов и Порака се задолжителни за преглед на е-поштата."
+
+msgid "Message: "
+msgstr "Порака: "
+
+msgid "No valid email addresses provided."
+msgstr "Не се обезбедени валидни адреси за е-пошта."
+
+msgid "One-Off Emails"
+msgstr "Еднократни е-пошти"
+
+msgid "Preview"
+msgstr "Преглед"
+
+msgid "Reply To Email: "
+msgstr "Одговори-до е-пошта: "
+
+msgid "Reply To Name: "
+msgstr "Одговори-до име: "
+
+msgid "Send"
+msgstr "Испрати"
+
+msgid "Subject: "
+msgstr "Тема: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Следните полиња се задолжителни за испраќање е-пошта: До, Тема, Наслов, Порака."
+
+msgid "To: "
+msgstr "До: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce Еднократни е-пошти"
