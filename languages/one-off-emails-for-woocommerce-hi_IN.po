@@ -1,0 +1,53 @@
+# Hindi translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:23+0000\n"
+"PO-Revision-Date: 2026-02-16 11:23+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Hindi\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "शीर्षक: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "ईमेल का पूर्वावलोकन करने के लिए शीर्षक और संदेश फ़ील्ड आवश्यक हैं।"
+
+msgid "Message: "
+msgstr "संदेश: "
+
+msgid "No valid email addresses provided."
+msgstr "कोई मान्य ईमेल पता प्रदान नहीं किया गया।"
+
+msgid "One-Off Emails"
+msgstr "एक बार के ईमेल"
+
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+msgid "Reply To Email: "
+msgstr "उत्तर ईमेल: "
+
+msgid "Reply To Name: "
+msgstr "उत्तर नाम: "
+
+msgid "Send"
+msgstr "भेजें"
+
+msgid "Subject: "
+msgstr "विषय: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "ईमेल भेजने के लिए निम्नलिखित फ़ील्ड आवश्यक हैं: प्रति, विषय, शीर्षक, संदेश।"
+
+msgid "To: "
+msgstr "प्रति: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce एक बार के ईमेल"

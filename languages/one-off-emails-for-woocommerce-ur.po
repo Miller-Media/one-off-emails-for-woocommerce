@@ -1,0 +1,53 @@
+# Urdu translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:23+0000\n"
+"PO-Revision-Date: 2026-02-16 11:23+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Urdu\n"
+"Language: ur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid "Heading: "
+msgstr "عنوان: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "ای میل کا پیش منظر دیکھنے کے لیے عنوان اور پیغام کے خانے ضروری ہیں۔"
+
+msgid "Message: "
+msgstr "پیغام: "
+
+msgid "No valid email addresses provided."
+msgstr "کوئی درست ای میل پتے فراہم نہیں کیے گئے۔"
+
+msgid "One-Off Emails"
+msgstr "ایک مرتبہ کی ای میلز"
+
+msgid "Preview"
+msgstr "پیش منظر"
+
+msgid "Reply To Email: "
+msgstr "جواب دینے کی ای میل: "
+
+msgid "Reply To Name: "
+msgstr "جواب دینے کا نام: "
+
+msgid "Send"
+msgstr "بھیجیں"
+
+msgid "Subject: "
+msgstr "موضوع: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "ای میل بھیجنے کے لیے درج ذیل خانے ضروری ہیں: وصول کنندہ، موضوع، عنوان، پیغام۔"
+
+msgid "To: "
+msgstr "وصول کنندہ: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce ایک مرتبہ کی ای میلز"
