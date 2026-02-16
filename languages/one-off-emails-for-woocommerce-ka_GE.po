@@ -1,0 +1,53 @@
+# Georgian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:22+0000\n"
+"PO-Revision-Date: 2026-02-16 11:22+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Georgian\n"
+"Language: ka_GE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Heading: "
+msgstr "სათაური: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "ელფოსტის წინასწარ სანახავად სათაურისა და შეტყობინების ველები აუცილებელია."
+
+msgid "Message: "
+msgstr "შეტყობინება: "
+
+msgid "No valid email addresses provided."
+msgstr "სწორი ელფოსტის მისამართები არ არის მითითებული."
+
+msgid "One-Off Emails"
+msgstr "ერთჯერადი ელფოსტა"
+
+msgid "Preview"
+msgstr "წინასწარი ნახვა"
+
+msgid "Reply To Email: "
+msgstr "პასუხის ელფოსტა: "
+
+msgid "Reply To Name: "
+msgstr "პასუხის სახელი: "
+
+msgid "Send"
+msgstr "გაგზავნა"
+
+msgid "Subject: "
+msgstr "თემა: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "ელფოსტის გასაგზავნად შემდეგი ველებია აუცილებელი: მიმღები, თემა, სათაური, შეტყობინება."
+
+msgid "To: "
+msgstr "მიმღები: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "WooCommerce ერთჯერადი ელფოსტა"
