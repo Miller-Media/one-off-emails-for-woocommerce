@@ -1,0 +1,53 @@
+# Ukrainian translation for One-Off Emails for WooCommerce
+msgid ""
+msgstr ""
+"Project-Id-Version: one-off-emails-for-woocommerce\n"
+"Report-Msgid-Bugs-To: https://github.com/Miller-Media/one-off-emails-for-woocommerce/issues\n"
+"POT-Creation-Date: 2026-02-16 11:22+0000\n"
+"PO-Revision-Date: 2026-02-16 11:22+0000\n"
+"Last-Translator: Crash Override (AI)\n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Heading: "
+msgstr "Заголовок: "
+
+msgid "Heading and Message fields are required to preview the email."
+msgstr "Для попереднього перегляду листа потрібні поля Заголовок та Повідомлення."
+
+msgid "Message: "
+msgstr "Повідомлення: "
+
+msgid "No valid email addresses provided."
+msgstr "Не вказано дійсних адрес електронної пошти."
+
+msgid "One-Off Emails"
+msgstr "Одноразові листи"
+
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+msgid "Reply To Email: "
+msgstr "Відповідь на email: "
+
+msgid "Reply To Name: "
+msgstr "Відповідь на ім'я: "
+
+msgid "Send"
+msgstr "Надіслати"
+
+msgid "Subject: "
+msgstr "Тема: "
+
+msgid "The following fields are required to send an email: To, Subject, Heading, Message."
+msgstr "Для надсилання листа потрібні такі поля: Кому, Тема, Заголовок, Повідомлення."
+
+msgid "To: "
+msgstr "Кому: "
+
+msgid "WooCommerce One-Off Emails"
+msgstr "Одноразові листи WooCommerce"
