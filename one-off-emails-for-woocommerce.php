@@ -6,7 +6,7 @@
  * Author: Miller Media
  * Author URI: https://mattmiller.ai
  * Depends:
- * Version:           1.3.1
+ * Version:           1.3.2
  * WC tested up to: 9.6
  * Requires PHP: 7.4
  * Text Domain: one-off-emails-for-woocommerce
@@ -19,7 +19,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'WOOE_PLUGIN_VERSION', '1.3.1' );
+define( 'WOOE_PLUGIN_VERSION', '1.3.2' );
 
 include_once('classes/Plugin.php');
 
