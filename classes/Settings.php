@@ -31,7 +31,9 @@ class WooOneOffEmailsSettings
 	 */
 	public function registerSettings()
 	{
-		register_setting('wooe_settings_group', 'wooe_delete_data_on_uninstall');
+		register_setting('wooe_settings_group', 'wooe_delete_data_on_uninstall', array(
+			'sanitize_callback' => 'absint',
+		));
 	}
 
 	/**

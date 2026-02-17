@@ -1,5 +1,9 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 // The email fields.
 $settings = array (
 	__('WooCommerce One-Off Emails', 'one-off-emails-for-woocommerce') => array (
