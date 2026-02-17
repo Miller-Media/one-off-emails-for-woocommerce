@@ -4,9 +4,10 @@ Tags: email, woocommerce, email template, customer
 Requires PHP: 7.4
 Requires at least: 3.0
 Tested up to: 6.9.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 WC tested up to: 9.6
-License: GPLv2
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Send custom emails to any user or customer using your WooCommerce store's email template.
 
@@ -108,6 +109,13 @@ The plugin is available in 30 languages with more being added regularly. We are 
 2. Sample email content with default WooCommerce email template
 
 == Changelog ==
+
+= 1.3.1 =
+* Added GPL license declaration to plugin header
+* Updated Author URI
+* Added direct file access protection to all PHP files
+* Improved output escaping and input sanitization
+* Removed non-production files from plugin directory
 
 = 1.3.0 =
 * Added translations for 50 languages
