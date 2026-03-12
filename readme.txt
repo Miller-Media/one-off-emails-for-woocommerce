@@ -1,6 +1,6 @@
 === One-Off Emails for WooCommerce ===
 Contributors: MillerMediaNow, millermediadev, mikemm01
-Tags: email, woocommerce, email template, customer
+Tags: email, woocommerce, notification, customer, order-email
 Requires PHP: 7.4
 Requires at least: 3.0
 Tested up to: 6.9
