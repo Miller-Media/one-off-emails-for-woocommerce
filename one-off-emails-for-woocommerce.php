@@ -6,7 +6,7 @@
  * Author: Miller Media
  * Author URI: https://mattmiller.ai
  * Depends:
- * Version:           1.3.3
+ * Version:           1.3.4
  * WC tested up to: 11.2
  * Requires PHP: 7.4
  * Requires at least: 6.0
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-define( 'WOOE_PLUGIN_VERSION', '1.3.3' );
+define( 'WOOE_PLUGIN_VERSION', '1.3.4' );
 
 include_once('classes/Plugin.php');
 
