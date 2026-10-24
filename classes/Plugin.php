@@ -80,6 +80,10 @@ class WooOneOffEmails
 	 */
 	public function ajaxSendEmail ()
 	{
+		if ( ! current_user_can( 'manage_options' ) ) {
+			wp_send_json_error( array( 'error' => __( 'You do not have permission to send emails.', 'one-off-emails-for-woocommerce' ) ), 403 );
+		}
+
 		// Check the nonce.
 		check_ajax_referer('ajax_nonce', 'nonce');
 
@@ -95,8 +99,8 @@ class WooOneOffEmails
 		}
 
 		$to = sanitize_text_field($_POST['data']['to']);
-		$reply_to_name = sanitize_text_field($_POST['data']['reply_to_name']);
-		$reply_to_email = sanitize_text_field($_POST['data']['reply_to_email']);
+		$reply_to_name = sanitize_text_field( wp_unslash( isset( $_POST['data']['reply_to_name'] ) ? $_POST['data']['reply_to_name'] : '' ) );
+		$reply_to_email = sanitize_email( wp_unslash( isset( $_POST['data']['reply_to_email'] ) ? $_POST['data']['reply_to_email'] : '' ) );
 		$subject = sanitize_text_field(stripslashes($_POST['data']['subject']));
 		$message = html_entity_decode(stripslashes($_POST['data']['message']));
 		$heading = sanitize_text_field(stripslashes($_POST['data']['heading']));
