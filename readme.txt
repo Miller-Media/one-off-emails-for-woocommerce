@@ -4,7 +4,7 @@ Tags: email, woocommerce, notification, customer, order-email
 Requires PHP: 7.4
 Requires at least: 6.0
 Tested up to: 7.1
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 WC tested up to: 11.2
 License: GPL-2.0-or-later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -109,6 +109,10 @@ The plugin is available in 30 languages with more being added regularly. We are 
 2. Sample email content with default WooCommerce email template
 
 == Changelog ==
+
+= 1.3.4 =
+* Added capability check to the send-email action
+* Default the reply-to name and email when they are not provided
 
 = 1.3.3 =
 * Requires at least WordPress 6.0 (now declared in the plugin header as well as the readme)
