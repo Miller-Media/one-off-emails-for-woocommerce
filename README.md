@@ -1,4 +1,36 @@
-# One-Off Emails for WooCommerce
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=7F54B3&center=true&vCenter=true&width=630&lines=One-Off+Emails+for+WooCommerce" alt="One-Off Emails for WooCommerce" />
+</p>
+
+<p align="center">
+<pre align="center">
+  ___  _  _ ___     ___  ___ ___
+ / _ \| \| | __|__ / _ \| __| __|
+| (_) | .` | _|___| (_) | _|| _|
+ \___/|_|\_|___|   \___/|_| |_|
+
+  ___ __  __   _   ___ _    ___
+ | __|  \/  | /_\ |_ _| |  / __|
+ | _|| |\/| |/ _ \ | || |__\__ \
+ |___|_|  |_/_/ \_\___|____|___/
+</pre>
+</p>
+
+<p align="center">
+  <strong>Send custom emails to any user or customer using your WooCommerce store's email template.</strong>
+</p>
+
+<p align="center">
+  <a href="https://wordpress.org/plugins/one-off-emails-for-woocommerce/"><img src="https://img.shields.io/wordpress/plugin/v/one-off-emails-for-woocommerce?style=flat-square" alt="WordPress.org Plugin Version"></a>
+  <a href="https://wordpress.org/plugins/one-off-emails-for-woocommerce/"><img src="https://img.shields.io/wordpress/plugin/tested/one-off-emails-for-woocommerce?style=flat-square" alt="Tested up to"></a>
+  <a href="https://wordpress.org/plugins/one-off-emails-for-woocommerce/"><img src="https://img.shields.io/wordpress/plugin/dt/one-off-emails-for-woocommerce?style=flat-square" alt="Downloads"></a>
+  <a href="https://www.gnu.org/licenses/gpl-2.0.html"><img src="https://img.shields.io/badge/license-GPLv2%2B-blue?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/wordpress/plugin/required-php/one-off-emails-for-woocommerce?style=flat-square&logo=php&logoColor=white" alt="PHP Version">
+  <a href="https://github.com/Miller-Media/one-off-emails-for-woocommerce/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/Miller-Media/one-off-emails-for-woocommerce/ci.yml?label=tests&style=flat-square" alt="Tests"></a>
+</p>
+
+---
+
 Our plugin can be downloaded for free from the WordPress repository here:  
 https://wordpress.org/plugins/one-off-emails-for-woocommerce
 
