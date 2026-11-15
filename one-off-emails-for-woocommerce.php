@@ -7,7 +7,7 @@
  * Author URI: https://mattmiller.ai
  * Depends:
  * Version:           1.3.4
- * WC tested up to: 11.2
+ * WC tested up to: 11.3
  * Requires PHP: 7.4
  * Requires at least: 6.0
  * Text Domain: one-off-emails-for-woocommerce
