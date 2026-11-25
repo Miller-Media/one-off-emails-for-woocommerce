@@ -3,7 +3,7 @@ Contributors: MillerMediaNow, millermediadev, mikemm01
 Tags: email, woocommerce, notification, customer, order-email
 Requires PHP: 7.4
 Requires at least: 6.0
-Tested up to: 7.1
+Tested up to: 7.2
 Stable tag: 1.3.4
 WC tested up to: 11.3
 License: GPL-2.0-or-later
